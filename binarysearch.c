@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <stdio.h>
- #include <stdlib.h>
+#include <stdio.h
+#include <stdlib.h>
 int Compare(const void *key , const void *val_at_index)
 {
     return *(size_t*)key -  *(size_t*)val_at_index; 
